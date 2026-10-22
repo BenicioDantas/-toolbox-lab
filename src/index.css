@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-graphite-900: #121212;
+  --color-graphite-800: #1a1a1a;
+  --color-graphite-700: #242424;
+  --color-electric-purple: #a855f7;
+  --color-electric-cyan: #06b6d4;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-graphite-900);
+  color: #f3f4f6;
+  font-family: sans-serif;
+}
