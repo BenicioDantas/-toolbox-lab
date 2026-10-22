@@ -37,7 +37,7 @@ export const PomodoroTimer: React.FC = () => {
       if (timerRef.current) clearInterval(timerRef.current);
     }
     return () => {
-      if (timerRef.current) clearInterval(timerRef.// la l'intervalle);
+    if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [isActive]);
 
